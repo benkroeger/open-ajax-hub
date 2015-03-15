@@ -1,0 +1,34 @@
+{
+  "name": "openAjax.hub",
+  "version": "2.0.7",
+  "homepage": "http://www.openajax.org/member/wiki/OpenAjax_Hub_2.0_Specification",
+  "authors": [
+    "OpenAjax Alliance"
+  ],
+  "description": "The OpenAjax Hub is a set of standard JavaScript functionality defined by the OpenAjax Alliance that addresses key interoperability and security issues that arise when multiple Ajax libraries and/or components are used within the same web page. The OpenAjax Hub represents one of the key technical contributions of OpenAjax Alliance to the Ajax community consistent with the Alliance's mission. See http://www.openajax.org for information on OpenAjax Alliance.",
+  "main": [
+    "./src/OpenAjax.js",
+    "./src/OpenAjax-mashup.js",
+    "./src/inline/inline.js"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "openajax",
+    "hub",
+    "rpc",
+    "wpm",
+    "messaging",
+    "secure"
+  ],
+  "license": "Apache 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "testsrc"
+  ]
+}
